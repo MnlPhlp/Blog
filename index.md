@@ -14,3 +14,11 @@ layout: homepage
 
 ## Projects
 - [wspick](https://github.com/MnlPhlp/wspick) - Terminal workspace picker
+
+  ```sh  
+❯ wspick
+? select project: tes 
+> test1
+  test2
+[↑↓ to move, enter to select, type to filter]  
+```
