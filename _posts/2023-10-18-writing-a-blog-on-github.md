@@ -86,7 +86,7 @@ Running this script creates a new post draft, using the first commandline parame
 The post title would be automatically generated from the file name, but I chose to specify it explicitly, so I can modify it later.
 
 ### Preview.sh
-```
+```sh
 #! /bin/bash
 
 xdg-open http://localhost:4000 &
