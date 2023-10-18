@@ -99,7 +99,12 @@ The setup is described in [This Github doc](https://docs.github.com/en/pages/set
 
 ### Publish.sh
 ```sh
-  
+#! /bin/bash
+
+files="$(ls -A _drafts)"
+select file in ${files}; do echo moving "${file}" to _posts;break; done
+
+mv "_drafts/$file" "_posts/$(date +%Y-%m-%d)-$file"
 ```
 Once I've previewed my post and want to post it, I run this script to move the file from `_drafts` to `_posts` and name it properly.
 Then after one quick `git push` the post is public and ready to be read.
