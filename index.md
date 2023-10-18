@@ -1,3 +1,7 @@
+---
+layout: homepage
+---
+
 ## Blog Posts
 
 <ul>
