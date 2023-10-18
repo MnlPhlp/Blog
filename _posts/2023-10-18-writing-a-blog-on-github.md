@@ -24,7 +24,6 @@ For more in depth information you can find all the sources for this blog in [thi
 ### Github Config
 To create a github-pages site, you just have to create a new github repo, add an `index.md` file and turn on `Deploy from a branch` in the repository settings.
 This is everything you need for a working website and it's completely free.
-Changing the appearence of your website is done with config files that i talk about in []
 
 ![github-settings](/assets/github-settings.png)
 
