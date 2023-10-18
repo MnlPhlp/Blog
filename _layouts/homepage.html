@@ -19,9 +19,16 @@
     {% include head-custom.html %}
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <ul>
+            <li class="fork"><a href="https://github.com/MnlPhlp">My Github Profile</a></li>
+          </ul>
+        </nav>
+      </div><!-- end header -->
     <div class="wrapper">
 
-      <section style="margin:0">
+      <section>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
