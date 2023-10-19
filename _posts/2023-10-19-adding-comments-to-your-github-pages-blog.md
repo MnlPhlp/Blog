@@ -20,5 +20,5 @@ There's a generator on the site that let's you specify your repository, theme, e
 Once your site is set up, add [their GitHub app](https://github.com/apps/utterances) to your blog's repository.
 That's it and you are good to go.
 
-Test out the feature by commenting on this post and look at the corresponding GitHub issue [here]().
+Test out the feature by commenting on this post and look at the corresponding GitHub issue [here](https://github.com/MnlPhlp/blog/issues/3).
 
